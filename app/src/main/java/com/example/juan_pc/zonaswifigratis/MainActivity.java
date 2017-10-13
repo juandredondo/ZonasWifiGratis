@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         
-        //agregando un  mensaje de hola androides
-        Toast.makeText(this, "Hola androides como estan, espero que de maravillas ", Toast.LENGTH_SHORT).show();
+   
     }
 
     @Override
